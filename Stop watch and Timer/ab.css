@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Center the container vertically and horizontally */
+}
+
+.container {
+    margin: auto;
+    width: 70vw; /* Fixed the unit */
+    height: 85vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: rgb(57, 85, 76);
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Added a shadow for better aesthetics */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between child elements */
+    background-color: aquamarine;
+    width: 60vw; /* Fixed the unit */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Added a shadow for better aesthetics */
+}
+
+.timeBox {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    background-color: rgb(20, 20, 7);
+    border-radius: 6px;
+    color: yellow;
+    font-size: xx-large;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(254, 202, 135);
+    width: 120px;
+    height: 50px;
+    border: none; /* Removed default border */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: rgb(240, 180, 100); /* Change color on hover */
+}
